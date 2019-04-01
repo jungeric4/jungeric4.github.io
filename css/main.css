@@ -28,7 +28,6 @@ h1, h2, h3{
 
 #content{
     padding: 10px;
-    
 }
 
 #nav{
@@ -39,13 +38,11 @@ h1, h2, h3{
 #nav ul{
     list-style-type:none;
     padding:0px;
-    margin-bottom:0px;
 }
 
 #main{
     width:600px;
     float:right;
-    
 }
 
 #footer{
@@ -58,7 +55,6 @@ h1, h2, h3{
 
 #nav .selected{
     font-weight:bold;
-    font-size:40px;
 }
 
 .paragraph{
