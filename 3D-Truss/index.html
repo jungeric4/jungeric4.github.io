@@ -1,56 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>3D-Truss</title>
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../css/main.css">
-        
-    </head>
-    <body>
-        <div id="Navigation">
-                <h3>Overview</h3>
-                <h4>Contributors</h4>
-                <p>
-                    <ul>
-                        <li>Thomas Gao</li>
-                        <li>Chau Hyunh</li>
-                        <li>Jason Cho</li>
-                        <li>Eric Jung</li>
-                    </ul>
-                </p>
-                <h3>Design</h3>
-                <h4>Contributors</h4>
-                <p>
-                    <ul>
-                        <li>Thomas Gao</li>
-                        <li>Chau Hyunh</li>
-                        <li>Jason Cho</li>
-                        <li>Eric Jung</li>
-                    </ul>
-                </p>
-                <h3>Verification</h3>
-                <h4>Contributors</h4>
-                <p>
-                    <ul>
-                        <li>Thomas Gao</li>
-                        <li>Chau Hyunh</li>
-                        <li>Jason Cho</li>
-                        <li>Eric Jung</li>
-                    </ul>
-                </p>
-                <h3>Report</h3>
-                <h4>Contributors</h4>
-                <p>
-                    <ul>
-                        <li>Thomas Gao</li>
-                        <li>Chau Hyunh</li>
-                        <li>Jason Cho</li>
-                        <li>Eric Jung</li>
-                    </ul>
-                </p>
-        </div>
-        <div id="Body">
 
-        </div>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Digital Encoder</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../init.js"></script>
+    <script>
+        $(document).ready(function () {
+            // wrap everything in bootstrap container
+            initPage()
+
+        })
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+</head>
+<script>
+        $(document).ready(function() {
+            // wrap everything in bootstrap container
+            str = document.body.innerHTML
+            document.body.innerHTML = "<div class=\"container\"></div>"
+            document.querySelector("body div.container").innerHTML = str
+
+            // make table look better
+            document.querySelectorAll("table").forEach(function(e) { e.classList += "table table-sm table-bordered col-md-6" })
+            document.querySelectorAll("blockquote").forEach(function(e) { e.classList.add("blockquote") })
+            document.querySelectorAll("img").forEach(function(e) { e.classList.add("img-fluid"); e.classList.add("img-thumbnail"); })
+        })
+    </script>
+<body>
+    <div id="navigation"></div>
+
+
+    <div class="container">
+        <h3>Overview</h3>
+        <h4>Contributors</h4>
+        <p>
+            <ul>
+                <li>Thomas Gao</li>
+                <li>Chau Hyunh</li>
+                <li>Jason Cho</li>
+                <li>Eric Jung</li>
+            </ul>
+        </p>
+        <h3>Design</h3>
+        <h4>Contributors</h4>
+        <p>
+            <ul>
+                <li>Thomas Gao</li>
+                <li>Chau Hyunh</li>
+                <li>Jason Cho</li>
+                <li>Eric Jung</li>
+            </ul>
+        </p>
+        <h3>Verification</h3>
+        <h4>Contributors</h4>
+        <p>
+            <ul>
+                <li>Thomas Gao</li>
+                <li>Chau Hyunh</li>
+                <li>Jason Cho</li>
+                <li>Eric Jung</li>
+            </ul>
+        </p>
+        <h3>Report</h3>
+        <h4>Contributors</h4>
+        <p>
+            <ul>
+                <li>Thomas Gao</li>
+                <li>Chau Hyunh</li>
+                <li>Jason Cho</li>
+                <li>Eric Jung</li>
+            </ul>
+        </p>
+    </div>
+    <div id="Body">
+
+    </div>
+</body>
+
 </html>
