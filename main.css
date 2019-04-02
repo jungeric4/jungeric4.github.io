@@ -13,3 +13,7 @@
 #overview-text, #design-text, #validation-text{
   font-size:16px;
 }
+
+.sidebar .nav-link{
+  font-size:18px;
+}
