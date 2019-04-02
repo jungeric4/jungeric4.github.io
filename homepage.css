@@ -1,0 +1,62 @@
+#logos {
+    margin-left:auto;
+    background: linear-gradient(-45deg, rgb(187, 24, 86), rgb(107, 73, 231), rgb(12, 228, 199));
+    background-size: 1000% 100%;
+    background-repeat:no-repeat;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+#selector{
+    margin-left:100px;
+    float:left;
+}
+
+img {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%
+  }
+
+  html,body { height:100%; }
+
+  body{
+      background-color:#0c00b4;
+  }
