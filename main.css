@@ -1,4 +1,15 @@
 :target {
-    padding-top: 53px; 
-    margin-top: -53px;
+    padding-top: 72px; 
+    margin-top: -72px;
   }
+
+.navbar-dark .navbar-brand{
+  padding-right: 12px;
+  padding-left: 12px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+#overview-text, #design-text, #validation-text{
+  font-size:16px;
+}
