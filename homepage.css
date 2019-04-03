@@ -45,13 +45,13 @@
 }
 
 #selector{
-    margin-top:1%;
-    margin-left:19%;
+
+    margin-left:14%;
     float:left;
 }
 
 #about{
-    margin-top:1%;
+
     margin-left:47%;
 }
 
@@ -103,4 +103,40 @@ p{
 #selector a:hover{
 	text-decoration:none;
 	color:#c2c2c2;
+}
+
+table {
+    border-collapse:separate;
+    border:solid white 2px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+td, th {
+    border:transparent;
+}
+
+th {
+	border-top: white 1px;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}
+
+th img{
+	border-radius:5px;
+}
+
+#table2{
+	margin-top:15px;
+}
+
+table p{
+	font-size:20px;
+	font-weight:400;
+}
+
+table p:hover{
+	color: #b9b9b9;
 }
