@@ -3,7 +3,7 @@ navbar_truss = String.raw`
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <a class="navbar-brand" style="color:#85bee5;" href="../index.html">MOD</a>
                   <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="../Encoder/index.html">Digital Encoder</a>
+                    <a class="nav-item nav-link" href="encoder.html">Digital Encoder</a>
                     <a class="nav-item nav-link active" href="#">3D Truss</a>
                   </div>
                 </div>
@@ -14,7 +14,7 @@ navbar_encoder = String.raw`
                               <a class="navbar-brand" style="color:#85bee5;" href="../index.html">MOD</a>
                                 <div class="navbar-nav">
                                   <a class="nav-item nav-link active" href="#">Digital Encoder</a>
-                                  <a class="nav-item nav-link" href="../3D-Truss/index.html">3D Truss</a>
+                                  <a class="nav-item nav-link" href="truss3d.html">3D Truss</a>
                                 </div>
                               </div>
                             </nav>`;
