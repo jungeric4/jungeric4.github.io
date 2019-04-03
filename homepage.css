@@ -45,14 +45,14 @@
 }
 
 #selector{
-    margin-top:3%;
-    margin-left:15%;
+    margin-top:1%;
+    margin-left:19%;
     float:left;
 }
 
 #about{
-    margin-top:3%;
-    margin-left:50%;
+    margin-top:1%;
+    margin-left:47%;
 }
 
 #logos img {
@@ -78,15 +78,29 @@ body{
 }
 
 li{
-    font-size:24px;
+	font-size:20px;
+	margin-top:5px;
+}
+
+#about li{
+	margin-left:3%;
 }
 
 p{
-    font-size:24px;
+    font-size:20px;
     display:inline;
 }
 
 .display-4{
-    font-weight:400;
-    font-size:80px;
+    font-weight:300;
+	font-size:80px;
+}
+
+#selector a{
+	color:white;
+}
+
+#selector a:hover{
+	text-decoration:none;
+	color:#c2c2c2;
 }
